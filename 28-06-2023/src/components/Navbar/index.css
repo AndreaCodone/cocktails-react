@@ -1,0 +1,55 @@
+/* Stile di base */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Stile per la navbar */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f1f1f1;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 8px;
+}
+
+.logo h1 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+}
+.logo:hover {
+  background-color: #ddd;
+  border-radius: 8px;
+}
+
+.navbar-link p {
+  margin: 0;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.navbar-link p:hover {
+  background-color: #ddd;
+  border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar-link {
+    margin-top: 10px;
+  }
+
+  .navbar-link p {
+    display: block;
+    padding: 5px 0;
+  }
+}
