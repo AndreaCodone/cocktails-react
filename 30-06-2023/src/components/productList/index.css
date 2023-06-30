@@ -1,0 +1,17 @@
+.ProductList {
+  padding: 0 30px;
+}
+
+.ProductList__list {
+  display: flex;
+  gap: 12px;
+  overflow-x: scroll;
+}
+
+.ProductItem img {
+  border-radius: 12px;
+}
+
+h2 {
+  text-transform: capitalize;
+}
