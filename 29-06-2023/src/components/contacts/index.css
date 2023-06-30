@@ -1,0 +1,40 @@
+.Contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  max-width: 300px;
+  margin: 0 auto;
+  align-items: center;
+  background-color: #f1f1f1;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.Contacts label {
+  padding: 0 0 0 10px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.Contacts input {
+  width: 100%;
+  height: 40px;
+  border: 1px solid lightgrey;
+  border-radius: 12px;
+  padding: 0 0 0 10px;
+  box-sizing: border-box;
+  margin-top: 5px;
+}
+
+.Contacts input[type="submit"] {
+  width: 100%;
+  padding: 0;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.Contacts__credentialsCond {
+  color: red;
+  font-size: 0.7rem;
+  text-align: center;
+}
